@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+    <ion-title>Tambah Komentar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <p>Nama Lengkap: </p>
+    <input type="text" #nama placeholder="Nama Lengkap..." value="" maxlength="32" (click)="getNama(nama.value)">
+    <p>Email Valid: </p>
+    <input type="text" #email placeholder="Email Valid..." value="" maxlength="64" (click)="getEmail(email.value)">
+    <p>Komentar Anda: </p>
+    <input type="text" #komentar placeholder="Komentar Anda..." value="" maxlength="128" (click)="getKomentar(komentar.value)">
+    <input type="button" name="submitKomentar" id="submitKomentar" (click)="submitKomentar()" value="BERI KOMENTAR">
+    </div>
+</ion-content>

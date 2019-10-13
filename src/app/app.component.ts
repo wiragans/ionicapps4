@@ -28,14 +28,34 @@ export class AppComponent implements OnInit {
       icon: 'list'
     },
     {
+      title: 'Tambah Produk',
+      url: '/tambahproduk',
+      icon: 'add-circle'
+    },
+    {
       title: 'Keranjang',
       url: '/keranjang',
       icon: 'cart'
     },
     {
-      title: 'Tambah Produk',
-      url: '/tambahproduk',
-      icon: 'add-circle'
+      title: 'Artikel',
+      url: '/artikel',
+      icon: 'md-bookmarks'
+    },
+    {
+      title: 'Komentar',
+      url: '/komentar',
+      icon: 'md-code-working'
+    },
+    {
+      title: 'Detail Komentar',
+      url: '/detailkomentar',
+      icon: 'md-code-working'
+    },
+    {
+      title: 'Beri Komentar',
+      url: '/tambahkomentar',
+      icon: 'md-create'
     },
     {
       title: 'About',
