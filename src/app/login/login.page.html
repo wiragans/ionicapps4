@@ -13,17 +13,7 @@
 <p class="txt1" style="margin-top: 90px; text-align: center;">
     SILAKAN LOGIN!
 </p>
-<ion-item>
-    <ion-label position="stacked">Username Anda</ion-label>
-    <ion-input placeholder="Username..." maxlength="32" clearInput value=""></ion-input>
-  </ion-item>
-<br>
-  <ion-item>
-      <ion-label position="stacked">Password Anda</ion-label>
-      <ion-input placeholder="Password..." maxlength="32" clearInput value=""></ion-input>
-    </ion-item>
-    <br>
-    <ion-button expand="block"><ion-icon name="arrow-forward"></ion-icon> LOGIN</ion-button>
+<ion-button expand="block" (click)="loginApi()"><ion-icon name="arrow-forward"></ion-icon> LOGIN VIA AKUN GOOGLE</ion-button>
     <!--<ion-button color="success" expand="block" (click)="nextPage()"><ion-icon name="arrow-forward"></ion-icon> DAFTAR</ion-button>-->
 </div>
 </ion-content>
